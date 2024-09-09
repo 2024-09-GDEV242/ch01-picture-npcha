@@ -122,8 +122,8 @@ public class Canvas
      */
     public void setForegroundColor(String colorString)
     {
-        if(colorString.equals("red")) {
-            graphic.setColor(new Color(235, 25, 25));
+        if(colorString.equals("olive")) {
+            graphic.setColor(new Color(186, 184, 108));
         }
         else if(colorString.equals("black")) {
             graphic.setColor(Color.black);
@@ -134,14 +134,35 @@ public class Canvas
         else if (colorString.equals("orange")){
             graphic.setColor(new Color(246, 178, 107));
         }
-        else if(colorString.equals("yellow")) {
-            graphic.setColor(new Color(255, 230, 0));
+        else if(colorString.equals("camal")) {
+            graphic.setColor(new Color(193, 154, 107));
         }
-        else if(colorString.equals("green")) {
-            graphic.setColor(new Color(143, 206, 0));
+        else if(colorString.equals("bronze")) {
+            graphic.setColor(new Color(205, 127, 50));
         }
-        else if(colorString.equals("magenta")) {
-            graphic.setColor(Color.magenta);
+        else if(colorString.equals("asparagus")) {
+            graphic.setColor(new Color(135, 169, 107));
+        }
+        else if(colorString.equals("golden")) {
+            graphic.setColor(new Color(255, 233, 0));
+        }
+        else if(colorString.equals("grey")) {
+            graphic.setColor(new Color(153, 153, 153));
+        }
+        else if(colorString.equals("darkSeaGreen")) {
+            graphic.setColor(new Color(105, 139, 105));
+        }
+        else if(colorString.equals("yellowGreen")) {
+            graphic.setColor(new Color(197, 227, 132));
+        }
+        else if(colorString.equals("mutedGreen")) {
+            graphic.setColor(new Color(121, 152, 96));
+        }
+        else if(colorString.equals("shadow")) {
+            graphic.setColor(new Color(138, 121, 93));
+        }
+        else if(colorString.equals("cornsilk")) {
+            graphic.setColor(new Color(255, 248, 220));
         }
         else if(colorString.equals("white")) {
             graphic.setColor(Color.white);
