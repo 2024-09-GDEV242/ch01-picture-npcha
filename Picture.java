@@ -133,9 +133,9 @@ public class Picture
             grass.makeVisible();
             
             gold.changeColor("golden");
-            gold.changeSize(30);
-            gold.moveHorizontal(224);
-            gold.moveVertical(-40);
+            gold.changeSize(20);
+            gold.moveHorizontal(230);
+            gold.moveVertical(-35);
             gold.makeVisible();
             
             drawn = true;
